@@ -1,3 +1,7 @@
+using CalculaJuros.Domain.Interfaces.Repositories;
+using CalculaJuros.Domain.Interfaces.Services;
+using CalculaJuros.Domain.Services;
+using CalculaJuros.Infra.Data.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -25,6 +29,9 @@ namespace CalculaJuros.Api
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "CalculaJuros.Api", Version = "v1" });
             });
+
+            services.AddScoped<ICotacaoRepository, CotacaoRepository>();
+            services.AddScoped<ICalculaJurosService, CalculaJurosService>();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
