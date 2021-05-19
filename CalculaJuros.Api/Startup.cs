@@ -31,7 +31,9 @@ namespace CalculaJuros.Api
             });
 
             services.AddScoped<ICotacaoRepository, CotacaoRepository>();
+            services.AddScoped<ICodigoRepository, CodigoRepository>();
             services.AddScoped<ICalculaJurosService, CalculaJurosService>();
+            services.AddScoped<ICodigoService, CodigoService>();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
