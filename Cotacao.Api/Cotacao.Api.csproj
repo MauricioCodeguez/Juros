@@ -9,7 +9,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\Cotacao.Domain\Cotacao.Domain.csproj" />
+    <ProjectReference Include="..\Cotacao.Infra\Cotacao.Infra.csproj" />
   </ItemGroup>
 
 </Project>
