@@ -2,6 +2,6 @@
 {
     public class CalculaJurosQuery
     {
-        public double ValorFinal { get; set; }
+        public decimal ValorFinal { get; set; }
     }
 }

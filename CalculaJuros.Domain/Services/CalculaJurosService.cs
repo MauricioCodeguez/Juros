@@ -13,10 +13,10 @@ namespace CalculaJuros.Domain.Services
 
         public CalculaJurosService(ICotacaoRepository cotacaoRepository) => _cotacaoRepository = cotacaoRepository;
 
-        public async Task<CalculaJurosQuery> CalcularJuros(double valorInicial, int meses)
+        public async Task<CalculaJurosQuery> CalcularJuros(decimal valorInicial, int meses)
         {
             var cotacao = await _cotacaoRepository.ObterCotacao();
-            var valorFinal = valorInicial * Math.Pow(1 + cotacao.TaxaJuros, meses);
+            var valorFinal = valorInicial * (decimal)Math.Pow(1 + cotacao.TaxaJuros, meses);
             return new CalculaJurosQuery() { ValorFinal = valorFinal.Truncate(2) };
         }
     }

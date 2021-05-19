@@ -5,6 +5,6 @@ namespace CalculaJuros.Domain.Interfaces.Services
 {
     public interface ICalculaJurosService
     {
-        Task<CalculaJurosQuery> CalcularJuros(double valorInicial, int meses);
+        Task<CalculaJurosQuery> CalcularJuros(decimal valorInicial, int meses);
     }
 }
