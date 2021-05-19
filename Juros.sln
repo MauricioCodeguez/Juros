@@ -15,9 +15,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cotacao.Test", "Cotacao.Tes
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculaJuros.Test", "CalculaJuros.Test\CalculaJuros.Test.csproj", "{E0C8CFA3-E2E0-4AD9-B773-A0D40819947B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cotacao.Domain", "Cotacao.Domain\Cotacao.Domain.csproj", "{BB3752C8-C654-4FA4-B195-C13364BAF94F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cotacao.Domain", "Cotacao.Domain\Cotacao.Domain.csproj", "{BB3752C8-C654-4FA4-B195-C13364BAF94F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cotacao.Infra", "Cotacao.Infra\Cotacao.Infra.csproj", "{29F458CB-0595-483E-9642-A3E63ED9CDE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cotacao.Infra", "Cotacao.Infra\Cotacao.Infra.csproj", "{29F458CB-0595-483E-9642-A3E63ED9CDE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculaJuros.Domain", "CalculaJuros.Domain\CalculaJuros.Domain.csproj", "{08A29318-54FA-4F03-BE5C-999C1653D81A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculaJuros.Infra", "CalculaJuros.Infra\CalculaJuros.Infra.csproj", "{23684DF3-3FF4-483E-9650-477AE7B40CFC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +53,14 @@ Global
 		{29F458CB-0595-483E-9642-A3E63ED9CDE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29F458CB-0595-483E-9642-A3E63ED9CDE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29F458CB-0595-483E-9642-A3E63ED9CDE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08A29318-54FA-4F03-BE5C-999C1653D81A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08A29318-54FA-4F03-BE5C-999C1653D81A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08A29318-54FA-4F03-BE5C-999C1653D81A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08A29318-54FA-4F03-BE5C-999C1653D81A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23684DF3-3FF4-483E-9650-477AE7B40CFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23684DF3-3FF4-483E-9650-477AE7B40CFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23684DF3-3FF4-483E-9650-477AE7B40CFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23684DF3-3FF4-483E-9650-477AE7B40CFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +72,8 @@ Global
 		{E0C8CFA3-E2E0-4AD9-B773-A0D40819947B} = {8B8800AC-3DE8-4087-87E6-0F19103F5D2E}
 		{BB3752C8-C654-4FA4-B195-C13364BAF94F} = {6E37B0D4-F6FA-4D73-9118-3C95049EC6D8}
 		{29F458CB-0595-483E-9642-A3E63ED9CDE7} = {6E37B0D4-F6FA-4D73-9118-3C95049EC6D8}
+		{08A29318-54FA-4F03-BE5C-999C1653D81A} = {8B8800AC-3DE8-4087-87E6-0F19103F5D2E}
+		{23684DF3-3FF4-483E-9650-477AE7B40CFC} = {8B8800AC-3DE8-4087-87E6-0F19103F5D2E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BF67A657-9BE6-4D4A-B8D2-502126DB606E}
