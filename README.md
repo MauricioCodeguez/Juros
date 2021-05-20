@@ -9,3 +9,9 @@ Para executar o projeto corretamente no seu ambiente de desenvolvimento, você p
 2. Acessar a opção de propriedades (uma nova janela irá aparecer)
 3. Selecionar a opção "Multiple startup projects"
 4. Escolher os projetos CalculoJuros.Api e Cotacao.Api para realizar a inicialização simutânea
+
+Porque eu preciso seguir os passos acima? Pois existe um endpoint na api de Cálculo de Juros que depende que a api de Cotação esteja no ar também.
+
+## Técnologias utilizadas nesse projeto
+
+* [.NET 5.0](https://dotnet.microsoft.com/)
