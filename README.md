@@ -10,6 +10,9 @@ Para executar o projeto corretamente no seu ambiente de desenvolvimento, você p
 3. Selecionar a opção "Multiple startup projects"
 4. Escolher os projetos CalculoJuros.Api e Cotacao.Api para realizar a inicialização simutânea
 
+<kbd><img width="400" height="400" src="assets/properties_sln.png" /></kbd>
+<kbd><img width="400" height="400" src="assets/startup.png" /></kbd>
+
 Porque eu preciso seguir os passos acima? Pois existe um endpoint na api de Cálculo de Juros que depende que a api de Cotação esteja no ar também.
 
 ## Técnologias utilizadas nesse projeto
